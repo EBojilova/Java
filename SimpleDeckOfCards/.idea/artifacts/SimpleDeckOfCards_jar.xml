@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SimpleDeckOfCards:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleDeckOfCards_jar</output-path>
+    <root id="archive" name="SimpleDeckOfCards.jar">
+      <element id="module-output" name="SimpleDeckOfCards" />
+      <element id="extracted-dir" path="C:/Program Files/Java/jdk1.8.0_60/lib/itextpdf-5.5.6.jar" path-in-jar="/" />
+      <element id="library" level="project" name="itextpdf-5.5.6" />
+    </root>
+  </artifact>
+</component>
