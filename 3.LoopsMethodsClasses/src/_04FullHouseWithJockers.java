@@ -23,9 +23,9 @@ class _04FullHouseWithJockers {
                                         String fifthCard = String.format("%2s%s", faceSecond, suits[suitSecond2]);
                                         String[] hand = {firstCard, secondCard, thirdCard, fourthCard, fifthCard};
 
-                                        // all possible cobpibations: 2^5 =32
-                                        int combinatins = (int) Math.pow(2, 5);
-                                        for (int combination = 0; combination < combinatins; combination++) {
+                                        // all possible combinations: 2^5 =32
+                                        int combinations = (int) Math.pow(2, 5);
+                                        for (int combination = 0; combination < combinations; combination++) {
                                             String[] temporary = {" * ", " * ", " * ", " * ", " * "};
                                             findCombination(combination, hand, temporary);
                                             System.out.println(String.join(" ", temporary));
