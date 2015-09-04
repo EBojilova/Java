@@ -27,7 +27,7 @@ class _04FullHouseWithJockers {
                                         int combinatins = (int) Math.pow(2, 5);
                                         for (int combination = 0; combination < combinatins; combination++) {
                                             String[] temporary = {" * ", " * ", " * ", " * ", " * "};
-                                            FindCombination(hand, combination, temporary);
+                                            findCombination(combination, hand, temporary);
                                             System.out.println(String.join(" ", temporary));
                                             countFullHouses++;
                                         }
@@ -43,7 +43,7 @@ class _04FullHouseWithJockers {
         }
     }
 
-    private static void FindCombination(String[] hand, int combination, String[] temporary) {
+    private static void findCombination(int combination, String[] hand, String[] temporary) {
         for (int jocker = 0; jocker < 5; jocker++) {
             int jockerPositon = 1 << jocker;
             if (jockerPositon > combination) {

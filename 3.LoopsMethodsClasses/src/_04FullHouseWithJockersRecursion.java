@@ -25,7 +25,7 @@ public class _04FullHouseWithJockersRecursion {
                                         String[] hand = {firstCard, secondCard, thirdCard, fourthCard, fifthCard};
 
                                         ArrayList<String> temporary = new ArrayList<>();
-                                        FindCombinations(0, hand, temporary);
+                                        findCombinations(0, hand, temporary);
                                     }
                                 }
                             }
@@ -38,7 +38,7 @@ public class _04FullHouseWithJockersRecursion {
         System.out.println(countFullHouses);
     }
 
-    private static void FindCombinations(int index, String[] hand, ArrayList<String> temporary) {
+    private static void findCombinations(int index, String[] hand, ArrayList<String> temporary) {
 
         System.out.print(String.join(" ", temporary));
         int jockers = 5 - temporary.size();
@@ -49,7 +49,7 @@ public class _04FullHouseWithJockersRecursion {
         System.out.println();
         for (int i = index; i < 5; i++) {
             temporary.add(hand[i]);
-            FindCombinations(i + 1, hand, temporary); // call recursively
+            findCombinations(i + 1, hand, temporary); // call recursively
             temporary.remove(temporary.size() - 1);
         }
     }
