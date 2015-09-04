@@ -3,13 +3,11 @@ import java.util.Objects;
 
 public class _04FullHouseWithJockersRecursion {
 
-    private String[] hand = new String[5];
+    static int countFullHouses = 0;
 
     public static void main(String[] args) {
         String[] suits = {"\u2660", "\u2665", "\u2666", "\u2663"};
         String[] faces = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
-
-        int countFullHouses = 0;
 
         for (String face : faces) {
             for (String faceSecond : faces) {
@@ -28,7 +26,6 @@ public class _04FullHouseWithJockersRecursion {
 
                                         ArrayList<String> temporary = new ArrayList<>();
                                         FindCombinations(0, hand, temporary);
-                                        countFullHouses++;
                                     }
                                 }
                             }
@@ -44,10 +41,11 @@ public class _04FullHouseWithJockersRecursion {
     private static void FindCombinations(int index, String[] hand, ArrayList<String> temporary) {
 
         System.out.print(String.join(" ", temporary));
-        int n = 5 - temporary.size();
-        for (int i = 0; i < n; i++) {
+        int jockers = 5 - temporary.size();
+        for (int i = 0; i < jockers; i++) {
             System.out.print("  * ");
         }
+        countFullHouses++;
         System.out.println();
         for (int i = index; i < 5; i++) {
             temporary.add(hand[i]);
