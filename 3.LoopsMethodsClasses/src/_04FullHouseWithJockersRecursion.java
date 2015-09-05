@@ -40,17 +40,22 @@ public class _04FullHouseWithJockersRecursion {
 
     private static void findCombinations(int index, String[] hand, ArrayList<String> temporary) {
 
-        System.out.print(String.join(" ", temporary));
-        int jockers = 5 - temporary.size();
-        for (int i = 0; i < jockers; i++) {
-            System.out.print("  * ");
-        }
+        printFullHouseHand(temporary);
         countFullHouses++;
-        System.out.println();
+
         for (int i = index; i < 5; i++) {
             temporary.add(hand[i]);
             findCombinations(i + 1, hand, temporary); // call recursively
             temporary.remove(temporary.size() - 1);
         }
+    }
+
+    private static void printFullHouseHand(ArrayList<String> temporary) {
+        System.out.print(String.join(" ", temporary));
+        int jockers = 5 - temporary.size();
+        for (int jocker = 0; jocker < jockers; jocker++) {
+            System.out.print("  * ");
+        }
+        System.out.println();
     }
 }
