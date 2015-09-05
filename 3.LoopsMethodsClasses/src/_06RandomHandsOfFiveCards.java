@@ -1,6 +1,4 @@
-import java.util.HashSet;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class _06RandomHandsOfFiveCards {
 
@@ -14,20 +12,26 @@ public class _06RandomHandsOfFiveCards {
 
         System.out.print("Number of hands: ");
         int numberOfHands = input.nextInt();
-        if (numberOfHands>10){
+        if (numberOfHands > 10) {
             System.out.println("Number of hands can not exceed 10.");
             return;
         }
-        HashSet<String> allHands = new HashSet<String>();
+        SortedSet<String> allHands = new TreeSet<String>();
+        HashSet<String> cardsUsed = new HashSet<>();
 
         while (allHands.size() < numberOfHands) {
-            HashSet<String> hand = new HashSet<String>();
+            SortedSet<String> hand = new TreeSet<String>();
 
             while (hand.size() < 5) {
                 String face = faces[rand.nextInt(13)];
                 String suit = suits[rand.nextInt(4)];
 
-                hand.add(String.format("%2s%s", face, suit));
+                String card = String.format("%2s%s", face, suit);
+                if (cardsUsed.contains(card)) {
+                    continue;
+                }
+                hand.add(card);
+                cardsUsed.add(card);
             }
 
             allHands.add(String.join(" ", hand));
