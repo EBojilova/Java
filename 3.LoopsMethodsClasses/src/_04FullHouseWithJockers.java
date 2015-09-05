@@ -2,6 +2,10 @@ import java.util.Objects;
 
 class _04FullHouseWithJockers {
 
+    static String format= "%2s%s";
+
+    static String jockerString= String.format("%4s", "*");
+
     public static void main(String[] args) {
         String[] suits = {"\u2660", "\u2665", "\u2666", "\u2663"};
         String[] faces = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
@@ -16,17 +20,17 @@ class _04FullHouseWithJockers {
                             for (int suit3 = suit2 + 1; suit3 < suits.length; suit3++) {
                                 for (int suitSecond1 = 0; suitSecond1 < suits.length - 1; suitSecond1++) {
                                     for (int suitSecond2 = suitSecond1 + 1; suitSecond2 < suits.length; suitSecond2++) {
-                                        String firstCard = String.format("%2s%s", face, suits[suit1]);
-                                        String secondCard = String.format("%2s%s", face, suits[suit2]);
-                                        String thirdCard = String.format("%2s%s", face, suits[suit3]);
-                                        String fourthCard = String.format("%2s%s", faceSecond, suits[suitSecond1]);
-                                        String fifthCard = String.format("%2s%s", faceSecond, suits[suitSecond2]);
+                                        String firstCard = String.format(format, face, suits[suit1]);
+                                        String secondCard = String.format(format, face, suits[suit2]);
+                                        String thirdCard = String.format(format, face, suits[suit3]);
+                                        String fourthCard = String.format(format, faceSecond, suits[suitSecond1]);
+                                        String fifthCard = String.format(format, faceSecond, suits[suitSecond2]);
                                         String[] hand = {firstCard, secondCard, thirdCard, fourthCard, fifthCard};
 
                                         // all possible combinations: 2^5 =32
                                         int combinations = (int) Math.pow(2, 5);
                                         for (int combination = 0; combination < combinations; combination++) {
-                                            String[] temporary = {" * ", " * ", " * ", " * ", " * "};
+                                            String[] temporary = {jockerString, jockerString, jockerString, jockerString, jockerString};
                                             findCombination(combination, hand, temporary);
                                             System.out.println(String.join(" ", temporary));
                                             countFullHouses++;
