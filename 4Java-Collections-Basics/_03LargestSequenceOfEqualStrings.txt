@@ -1,0 +1,6 @@
+hi yes yes yes bye 
+SoftUni softUni softuni
+1 1 2 2 3 3 4 4 5 5 
+a b b xxx c c c 
+hi hi hi hi hi 
+hello

@@ -9,6 +9,7 @@ public class _07DaysBetweenTwoDates {
         Scanner input = new Scanner(System.in);
 
         // If we give "dd-MM-yyyy" will throw exeption if a single number is entered for the day
+        //"['d']d-MM-yyyy". Опционалните символи се заграждат с "[]"
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d-MM-yyyy");
 
         String startInput = input.nextLine();

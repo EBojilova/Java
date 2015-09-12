@@ -1,0 +1,11 @@
+{10.00,  9.70} Outside
+{11.60,  7.00} Outside
+{12.50,  6.00} Inside
+{12.50, 14.50} Outside
+{13.13,  9.15} Inside
+{15.02,  4.83} Outside
+{16.33, 14.03} Outside
+{15.11,  7.01} Inside
+{17.50, 13.50} Outside
+{17.60,  8.50} Outside
+
