@@ -24,6 +24,13 @@ public class _02SequencesOfEqualStrings {
                     System.out.println(String.join(" ", counted.get(key)));
                 }
                 System.out.println();
+//                String[] array = input.nextLine().split(" ");
+//
+//                Arrays.stream(array)
+//                      .collect(Collectors.groupingBy(s -> s))
+//                      .values()
+//                      .stream()
+//                      .forEach(s -> System.out.printf("%s\n", String.join(" ", s)));
             }
 
         }

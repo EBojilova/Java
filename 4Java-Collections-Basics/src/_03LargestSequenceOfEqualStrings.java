@@ -33,6 +33,17 @@ public class _03LargestSequenceOfEqualStrings {
 
                     System.out.printf("%s ", wordMaxCount);
                 }
+
+//                String sequence = Arrays.stream(words)
+//                                        .collect(Collectors.groupingBy(s -> s))
+//                                        .entrySet()
+//                                        .stream()
+//                                        .max((entry1, entry2) -> entry1.getValue().size() > entry2.getValue().size() ? 1 : -1)
+//                                        .get()
+//                                        .getValue()
+//                                        .stream()
+//                                        .map(i -> i.toString())
+//                                        .collect(Collectors.joining(" "));
                 System.out.println();
 
             }

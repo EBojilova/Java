@@ -6,6 +6,17 @@ public class Triangle {
         this.coordinates = coordinates;
     }
 
+    public void printArea() {
+        double area = this.calculateTriangleAre();
+
+        if (area != 0) {
+            System.out.printf("%nThe area of the triangle is %d.", (int) area);
+        }
+        else {
+            System.out.printf("%nResult: 0.%nThese three points do not form a triangle; they are collinear.");
+        }
+    }
+
     private double calculateTriangleAre() {
         int Ax = this.coordinates[0];
         int Ay = this.coordinates[1];
@@ -20,16 +31,5 @@ public class Triangle {
         area /= 2.0;
         area = Math.abs(area);
         return area;
-    }
-
-    public void printArea() {
-        double area = this.calculateTriangleAre();
-
-        if (area != 0) {
-            System.out.printf("%nThe area of the triangle is %d.", (int) area);
-        }
-        else {
-            System.out.printf("%nResult: 0.%nThese three points do not form a triangle; they are collinear.");
-        }
     }
 }

@@ -25,6 +25,12 @@ public class _01SortArrayOfNumbers {
 
                 Arrays.stream(numbers).forEach(number -> System.out.printf("%d ", number));
                 System.out.println();
+
+//                Arrays.stream(
+//                        input.nextLine().split(" "))
+//                      .mapToInt(Integer::parseInt)
+//                      .sorted()
+//                      .forEach(s -> System.out.printf("%s ", s));
             }
 
         }
