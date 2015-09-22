@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6863b0-9854-42a2-bc38-b6df3f5ceeb8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ExamPreparation/out/production/ExamPreparation/Durts.class" afterPath="$PROJECT_DIR$/../ExamPreparation/out/production/ExamPreparation/Durts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ExamPreparation/out/production/ExamPreparation/Exam_Score.class" afterPath="$PROJECT_DIR$/../ExamPreparation/out/production/ExamPreparation/Exam_Score.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ExamPreparation/out/production/ExamPreparation/Straight_Flush.class" afterPath="$PROJECT_DIR$/../ExamPreparation/out/production/ExamPreparation/Straight_Flush.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/_4Java-Collections-Basics/_03LargestSequenceOfEqualStrings.class" afterPath="$PROJECT_DIR$/out/production/_4Java-Collections-Basics/_03LargestSequenceOfEqualStrings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ExamPreparation/src/Durts.java" afterPath="$PROJECT_DIR$/../ExamPreparation/src/Durts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ExamPreparation/src/Exam_Score.java" afterPath="$PROJECT_DIR$/../ExamPreparation/src/Exam_Score.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_01SortArrayOfNumbers.java" afterPath="$PROJECT_DIR$/src/_01SortArrayOfNumbers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_02SequencesOfEqualStrings.java" afterPath="$PROJECT_DIR$/src/_02SequencesOfEqualStrings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_03LargestSequenceOfEqualStrings.java" afterPath="$PROJECT_DIR$/src/_03LargestSequenceOfEqualStrings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1.IntrodcutionToJava/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../1.IntrodcutionToJava/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../2.JavaSyntax/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../2.JavaSyntax/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../3.LoopsMethodsClasses/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../3.LoopsMethodsClasses/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ExamPreparation/src/UserLogs.java" />
+      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\8.OOPinJava.7z" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\HomeworkJavaCollectionsBasics\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\HomeworkJavaCollectionsBasics\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\HomeworkJavaCollectionsBasics\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\HomeworkJavaCollectionsBasics\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\HomeworkJavaCollectionsBasics\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\HomeworkJavaCollectionsBasics\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\HomeworkJavaCollectionsBasics\HomeworkJavaCollectionsBasics.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ExamPreparation/out/production/ExamPreparation/LogsAggregatorEB.class" afterPath="$PROJECT_DIR$/../ExamPreparation/out/production/ExamPreparation/LogsAggregatorEB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../8.OOPinJava/src/oneLvShop/PurchaseManager.java" afterPath="$PROJECT_DIR$/../8.OOPinJava/src/oneLvShop/PurchaseManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../8.OOPinJava/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../8.OOPinJava/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Demo4. Java-Collections-Basics/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Demo4. Java-Collections-Basics/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ExamPreparation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ExamPreparation/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java-Workshop/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java-Workshop/.idea/workspace.xml" />
     </list>
     <ignored path="_4Java-Collections-Basics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_01SortArrayOfNumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_01SortArrayOfNumbers.java">
+      <file leaf-file-name="_5CountAllWordsMatch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_5CountAllWordsMatch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="16" column="39" selection-start-line="15" selection-start-column="14" selection-end-line="16" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -76,11 +77,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="_03LargestSequenceOfEqualStrings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_03LargestSequenceOfEqualStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_02SequencesOfEqualStrings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_02SequencesOfEqualStrings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="20" column="65" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_11MostFrequentWord.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_11MostFrequentWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4256757">
+              <caret line="26" column="41" selection-start-line="25" selection-start-column="16" selection-end-line="26" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -106,41 +127,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_11MostFrequentWord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_11MostFrequentWord.java">
+      <file leaf-file-name="_8ExtractEmails.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_8ExtractEmails.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_4LongestIncreasingSequenceWithoutLists.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_4LongestIncreasingSequenceWithoutLists.java">
+      <file leaf-file-name="_07CountSubstringOccurrences.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_07CountSubstringOccurrences.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_12CardsFrequencies.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_12CardsFrequencies.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2820946">
-              <caret line="23" column="92" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="104" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_9CombineListsOfLetters.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_9CombineListsOfLetters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <caret line="23" column="19" selection-start-line="20" selection-start-column="14" selection-end-line="27" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -224,6 +225,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,12 +260,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../8. OOP-in-Java-Demos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Demo8. OOP-in-Java-Demos" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
@@ -534,7 +535,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43533835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23609023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -835,34 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_5CountAllWordsMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_8ExtractEmails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_03LargestSequenceOfEqualStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="76" selection-start-line="36" selection-start-column="17" selection-end-line="45" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_03LargestSequenceOfEqualStringsInnos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_5CountAllWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -870,25 +843,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_07CountSubstringOccurrences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="19" selection-start-line="20" selection-start-column="14" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_01SortArrayOfNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_02SequencesOfEqualStrings.java">
+    <entry file="file://$PROJECT_DIR$/src/_9CombineListsOfLetters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="65" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="76" />
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_12CardsFrequencies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="92" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="104" />
           <folding />
         </state>
       </provider>
@@ -897,6 +871,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_03LargestSequenceOfEqualStringsInnos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_02SequencesOfEqualStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="76" />
           <folding />
         </state>
       </provider>
@@ -911,34 +901,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_06CountSpecifiedWord.java">
+    <entry file="file://$PROJECT_DIR$/src/_8ExtractEmails.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_06CountSpecifiedWordMatch.java">
+    <entry file="file://$PROJECT_DIR$/src/_07CountSubstringOccurrences.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_9CombineListsOfLetters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_11MostFrequentWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
+          <caret line="23" column="19" selection-start-line="20" selection-start-column="14" selection-end-line="27" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -951,10 +925,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_12CardsFrequencies.java">
+    <entry file="file://$PROJECT_DIR$/src/_06CountSpecifiedWordMatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2820946">
-          <caret line="23" column="92" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="104" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_5CountAllWordsMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="39" selection-start-line="15" selection-start-column="14" selection-end-line="16" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_06CountSpecifiedWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_03LargestSequenceOfEqualStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_11MostFrequentWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4256757">
+          <caret line="26" column="41" selection-start-line="25" selection-start-column="16" selection-end-line="26" selection-end-column="92" />
           <folding />
         </state>
       </provider>

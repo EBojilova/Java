@@ -33,6 +33,7 @@ public class UserLogsEB {
             userIPcount.get(userName)
                        .put(IPaddress, currentDuration + 1);
         }
+
         //Printig result with stream and Collection.join is more than 2 times slower
 //        printResultStream(userIPcount);
         printResultConcatenation(userIPcount);

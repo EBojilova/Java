@@ -19,7 +19,7 @@ public final class PurchaseManager {
 
     private PurchaseManager() {
     }
-
+// moje vmesto custom exeptions da se polzvat IllegalArgumentException
     public static void processPurchase(Customer customer, Product product) throws ProductHasExpiredException,
                                                                                   ProductOutOfStockException,
                                                                                   BuyerDoesNotHaveEnoughMoneyException,
