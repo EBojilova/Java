@@ -1,4 +1,4 @@
-package dictionary;
+package regex;
 
 import java.util.ArrayList;
 import java.util.List;
