@@ -37,14 +37,14 @@ public class SchoolSystemEB {
         printResult(nameSubjectsGrades);
     }
 
-    private static void printResult(TreeMap<String, TreeMap<String, List<Double>>> scoresNamesGrades) {
-        for (String studentName : scoresNamesGrades.keySet()) {
+    private static void printResult(TreeMap<String, TreeMap<String, List<Double>>> nameSubjectsGrades) {
+        for (String studentName : nameSubjectsGrades.keySet()) {
 
             System.out.printf("%s: ", studentName);
-            String result = scoresNamesGrades.get(studentName)
+            String result = nameSubjectsGrades.get(studentName)
                                              .keySet()
                                              .stream()
-                                             .map(subject -> String.format("%s - %.2f", subject, scoresNamesGrades.get(studentName)
+                                             .map(subject -> String.format("%s - %.2f", subject, nameSubjectsGrades.get(studentName)
                                                                                                                   .get(subject)
                                                                                                                   .stream()
                                                                                                                   .mapToDouble(a -> a)
