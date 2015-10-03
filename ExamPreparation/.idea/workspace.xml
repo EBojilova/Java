@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea3a4a6c-c6b7-446c-ab4b-09ac3b069453" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dictionary/SchoolSystemEB.java" />
-      <change type="MOVED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\src\dictionary\ValidUsernames.java" afterPath="$PROJECT_DIR$/src/regex/ValidUsernames.java" />
-      <change type="MOVED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\src\dictionary\ValidUsernamesEB.java" afterPath="$PROJECT_DIR$/src/regex/ValidUsernamesEB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dictionary/SchoolSystemEB.java" afterPath="$PROJECT_DIR$/src/dictionary/SchoolSystemEB.java" />
     </list>
     <ignored path="ExamPreparation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +49,8 @@
       <file leaf-file-name="SchoolSystemEB.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dictionary/SchoolSystemEB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.13917525">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.3427835">
+              <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1032,8 +1029,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dictionary/SchoolSystemEB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.13917525">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.3427835">
+          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

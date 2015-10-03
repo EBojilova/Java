@@ -12,29 +12,29 @@ public class SchoolSystemEB {
         Scanner scanner = new Scanner(System.in);
         int n = Integer.parseInt(scanner.nextLine());
         // TreeMap orders exam score (increasingly) all students (alphabetically).Allows multiple entries per a key
-        TreeMap<String, TreeMap<String, List<Double>>> scoresNamesGrades = new TreeMap<>();
+        TreeMap<String, TreeMap<String, List<Double>>> nameSubjectsGrades = new TreeMap<>();
         for (int i = 0; i < n; i++) {
             String[] inputLine = scanner.nextLine()
                                         .split("\\W+");
             String studentName = inputLine[0] + " " + inputLine[1];
             String subject = inputLine[2];
             double grade = Double.parseDouble(inputLine[3]);
-            if (!scoresNamesGrades.containsKey(studentName)) {
-                scoresNamesGrades.put(studentName, new TreeMap<>());
+            if (!nameSubjectsGrades.containsKey(studentName)) {
+                nameSubjectsGrades.put(studentName, new TreeMap<>());
             }
-            if (!scoresNamesGrades.get(studentName)
+            if (!nameSubjectsGrades.get(studentName)
                                   .containsKey(subject)) {
-                scoresNamesGrades.get(studentName)
+                nameSubjectsGrades.get(studentName)
                                  .put(subject, new ArrayList<>());
             }
 
-            scoresNamesGrades.get(studentName)
+            nameSubjectsGrades.get(studentName)
                              .get(subject)
                              .add(grade);
 
         }
 
-        printResult(scoresNamesGrades);
+        printResult(nameSubjectsGrades);
     }
 
     private static void printResult(TreeMap<String, TreeMap<String, List<Double>>> scoresNamesGrades) {
