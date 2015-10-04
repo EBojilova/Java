@@ -4,25 +4,25 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class TextTransformer {
+public class TextTransformerEB {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String specials = "$%&'";
         int[] weights = {1, 2, 3, 4};
         String input;
-        String text = "";
+        StringBuilder sb= new StringBuilder();
         while (!(input = scanner.nextLine()).equals("burp")) {
-            text += input;
+            sb .append(input);
         }
-        input = input.replace("\\s{2,}", " ");
+        String text = sb.toString().replace("\\s{2,}", " ");
         Matcher matcher = Pattern.compile("([$%&'])([^$%&']+)\\1")
                                  .matcher(text);
-        String result = "";
         while (matcher.find()) {
             char character = matcher.group(1)
                                     .charAt(0);
             String word = matcher.group(2);
+
             int indexWeigth = specials.indexOf(character);
             int weight = weights[indexWeigth];
             for (int i = 0; i < word.length(); i++) {
@@ -32,12 +32,11 @@ public class TextTransformer {
                 else {
                     character = (char) (word.charAt(i) - weight);
                 }
-                result += character;
+                System.out.print(character);
             }
-            result += " ";
+            System.out.print(" ");;
         }
-        System.out.println(result);
-
+        System.out.println();
     }
 }
 
