@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea3a4a6c-c6b7-446c-ab4b-09ac3b069453" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\src\dictionary\DragonAccountingExam.java" afterPath="$PROJECT_DIR$/src/DragonAccountingExam.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1.IntrodcutionToJava/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../1.IntrodcutionToJava/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../2.JavaSyntax/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../2.JavaSyntax/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../3.LoopsMethodsClasses/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../3.LoopsMethodsClasses/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../4Java-Collections-Basics/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../4Java-Collections-Basics/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamPreparation.iws" />
     <ignored path=".idea/workspace.xml" />
