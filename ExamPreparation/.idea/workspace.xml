@@ -2,38 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea3a4a6c-c6b7-446c-ab4b-09ac3b069453" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/CommandEnterpreterKatya.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dictionary/DragonAccountingExam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dictionary/DragonArmyExam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/regex/DragonSharpExam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/LabyrinthDashEB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/arrays/LabyrinthDashKatya.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MagicSumEB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dictionary/OfficeStuffKatya.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cards/StraightFlushEB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/regex/TerroristsWinEB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/regex/TextTransformerEduard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TimespanEB.java" />
-      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\out\production\ExamPreparation\FireTheArrows.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\out\production\ExamPreparation\FireTheArrowsEB.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\out\production\ExamPreparation\LegoBlocks.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\out\production\ExamPreparation\LegoBlocksEB.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\out\production\ExamPreparation\TargetPractise.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\out\production\ExamPreparation\cards\Straight_Flush.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\out\production\ExamPreparation\regex\TextTransformer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\src\cards\Straight_Flush.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\src\FireTheArrows.java" afterPath="$PROJECT_DIR$/src/arrays/FireTheArrows.java" />
-      <change type="MOVED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\src\FireTheArrowsEB.java" afterPath="$PROJECT_DIR$/src/arrays/FireTheArrowsEB.java" />
-      <change type="MOVED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\src\LegoBlocks.java" afterPath="$PROJECT_DIR$/src/arrays/LegoBlocks.java" />
-      <change type="MOVED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\src\LegoBlocksEB.java" afterPath="$PROJECT_DIR$/src/arrays/LegoBlocksEB.java" />
-      <change type="MOVED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\src\TargetPractise.java" afterPath="$PROJECT_DIR$/src/arrays/TargetPractise.java" />
-      <change type="MOVED" beforePath="C:\Users\Elena\IdeaProjects\ExamPreparation\src\regex\TextTransformer.java" afterPath="$PROJECT_DIR$/src/regex/TextTransformerEB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ExamPreparation/dictionary/SchoolSystemEB.class" afterPath="$PROJECT_DIR$/out/production/ExamPreparation/dictionary/SchoolSystemEB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regex/DragonSharpExam.java" afterPath="$PROJECT_DIR$/src/regex/DragonSharpExam.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../1.IntrodcutionToJava/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../1.IntrodcutionToJava/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../2.JavaSyntax/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../2.JavaSyntax/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../3.LoopsMethodsClasses/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../3.LoopsMethodsClasses/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../4Java-Collections-Basics/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../4Java-Collections-Basics/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExamPreparation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,20 +28,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DragonSharpExam.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DragonSharpExam.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/regex/DragonSharpExam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="35" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="35" />
-              <folding />
+            <state vertical-scroll-proportion="0.042079207">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DragonAccountingExam.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DragonAccountingExam.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dictionary/DragonAccountingExam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30756578">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -186,8 +161,8 @@
         <option value="$PROJECT_DIR$/src/regex/TextTransformerEB.java" />
         <option value="$PROJECT_DIR$/src/arrays/CommandEnterpreterKatya.java" />
         <option value="$PROJECT_DIR$/src/dictionary/DragonArmyExam.java" />
-        <option value="$PROJECT_DIR$/src/regex/DragonSharpExam.java" />
         <option value="$PROJECT_DIR$/src/dictionary/DragonAccountingExam.java" />
+        <option value="$PROJECT_DIR$/src/regex/DragonSharpExam.java" />
       </list>
     </option>
   </component>
@@ -271,7 +246,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dictionary" />
+              <option name="myItemId" value="regex" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,7 +264,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.DragonAccountingExam">
+  <component name="RunManager" selected="Application.DragonSharpExam">
     <configuration default="false" name="TextTransformerEB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -562,8 +537,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DragonAccountingExam" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DragonSharpExam" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DragonSharpExam" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DragonAccountingExam" />
         <item index="2" class="java.lang.String" itemvalue="Application.DragonArmyExam" />
         <item index="3" class="java.lang.String" itemvalue="Application.CommandEnterpreterKatya" />
         <item index="4" class="java.lang.String" itemvalue="Application.TextTransformerEB" />
@@ -589,11 +564,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3207547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -601,15 +578,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39779875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3207547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39779875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1013,18 +988,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/regex/DragonSharpExam.java">
+    <entry file="file://$PROJECT_DIR$/src/dictionary/DragonAccountingExam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="35" />
-          <folding />
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dictionary/DragonAccountingExam.java">
+    <entry file="file://$PROJECT_DIR$/src/regex/DragonSharpExam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30756578">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.042079207">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

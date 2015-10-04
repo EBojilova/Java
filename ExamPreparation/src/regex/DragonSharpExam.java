@@ -14,6 +14,7 @@ public class DragonSharpExam {
         String input;
         boolean hasElse = false;
         for (int line = 0; line < n; line++) {
+
             input = scanner.nextLine();
             Matcher matcherIf = Pattern.compile("if \\((\\d+)(==|<|>)(\\d+)\\)( loop (\\d+))? out \"(.*)\";")
                                        .matcher(input);
@@ -27,6 +28,7 @@ public class DragonSharpExam {
             }
 
             if (ifMatched) {
+                hasElse = false;
                 int firstNumber = Integer.parseInt(matcherIf.group(1));
                 int secondNumber = Integer.parseInt(matcherIf.group(3));
                 boolean areEqual = matcherIf.group(2)
@@ -58,7 +60,6 @@ public class DragonSharpExam {
                     sb.append(matcherElse.group(3))
                       .append(System.getProperty("line.separator"));
                 }
-                hasElse = false;
             }
         }
         System.out.println(sb);
