@@ -29,7 +29,7 @@ public class DragonAccountingExam {
             hiredWorkersDay.add(hired);
 
             // check for raise ->
-            for (int day = 364; day < salaries.size(); day++) {
+            for (int day = 0; day < salaries.size(); day++) {
                 int workingDays = days - day;
                 if (workingDays % 365 == 0 && !hiredWorkersDay.get(day)
                                                               .equals(BigDecimal.ZERO)) {
@@ -38,18 +38,21 @@ public class DragonAccountingExam {
                     salaries.set(day, increasedSalary);
                 }
             }
+
             // give salaries ->
             if (days % 30 == 0) {
                 for (int day = 0; day < days; day++) {
                     if (!hiredWorkersDay.get(day)
                                         .equals(BigDecimal.ZERO)) {
                         int workingDays = days - day;
-                        int workingDaysMonth = workingDays % 30;
+                        if (workingDays > 30) {
+                            workingDays = 30;
+                        }
 
                         BigDecimal paiedSalaries = salaries.get(day)
-                                                           .divide(Month, 9, RoundingMode.FLOOR)
+                                                           .divide(Month, 9, RoundingMode.UP)
                                                            .setScale(7, BigDecimal.ROUND_DOWN)
-                                                           .multiply(new BigDecimal(workingDaysMonth))
+                                                           .multiply(new BigDecimal(workingDays))
                                                            .multiply(new BigDecimal(hiredWorkersDay.get(day)));
                         capital = capital.subtract(paiedSalaries);
                     }
