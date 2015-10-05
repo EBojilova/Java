@@ -41,8 +41,7 @@ public class DragonTrapEB {
             ArrayList<Character> characters = getCharacters(matrix, startRow, startCol, endRow, endCol);
 
             if (characters.size() == 0 || rotations==0) {
-                printResult(matrix);
-                return;
+                continue;
             }
 
             if (rotations < 0) {
