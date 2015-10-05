@@ -41,7 +41,7 @@ public class DragonTrapEB {
             ArrayList<Character> characters = getCharacters(matrix, startRow, startCol, endRow, endCol);
 
             if (characters.size() == 0 || rotations==0) {
-                printMatrix(matrix);
+                printResult(matrix);
                 return;
             }
 
@@ -57,11 +57,9 @@ public class DragonTrapEB {
                 characters = new ArrayList(characters.subList(rotations, characters.size()));
                 characters.addAll(part);
             }
-
             rotateMatrix(matrix, startRow, startCol, endRow, endCol, characters);
-            printMatrix(matrix);
-
         }
+        printResult(matrix);
     }
 
     private static ArrayList<Character> rotateMatrix(char[][] matrix, int startRow, int startCol, int endRow, int endCol, ArrayList<Character> characters) {
@@ -142,7 +140,7 @@ public class DragonTrapEB {
         return characters;
     }
 
-    private static void printMatrix(char[][] matrix ) {
+    private static void printResult(char[][] matrix) {
         for (int row = 0; row < rows; row++) {
             System.out.println(matrix[row]);
         }
