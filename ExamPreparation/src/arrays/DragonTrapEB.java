@@ -15,9 +15,11 @@ public class DragonTrapEB {
         Scanner scanner = new Scanner(System.in);
         rows = Integer.parseInt(scanner.nextLine());
         char[][] matrix = new char[rows][];
+        char[][] notRotatedMatrix = new char[rows][];
         for (int i = 0; i < rows; i++) {
-            matrix[i] = scanner.nextLine()
-                               .toCharArray();
+            String input = scanner.nextLine();
+            matrix[i] = input.toCharArray();
+            notRotatedMatrix[i] = input.toCharArray();
         }
         cols = matrix[0].length;
         String input;
@@ -40,7 +42,7 @@ public class DragonTrapEB {
 
             ArrayList<Character> characters = getCharacters(matrix, startRow, startCol, endRow, endCol);
 
-            if (characters.size() == 0 || rotations==0) {
+            if (characters.size() == 0 || rotations == 0) {
                 continue;
             }
 
@@ -58,6 +60,13 @@ public class DragonTrapEB {
             }
             rotateMatrix(matrix, startRow, startCol, endRow, endCol, characters);
         }
+        for (int row = 0; row < rows; row++) {
+            for (int col = 0; col < cols; col++) {
+                if (matrix[row][col] != notRotatedMatrix[row][col]) {
+                    count++;
+                }
+            }
+        }
         printResult(matrix);
     }
 
@@ -67,40 +76,28 @@ public class DragonTrapEB {
         int i = 0;
         while (row < endRow) {
             if (isInMatrix(row, col)) {
-                if (matrix[row][col] != characters.get(i)) {
-                    count++;
-                    matrix[row][col] = characters.get(i);
-                }
+                matrix[row][col] = characters.get(i);
                 i++;
             }
             row++;
         }
         while (col < endCol) {
             if (isInMatrix(row, col)) {
-                if (matrix[row][col] != characters.get(i)) {
-                    count++;
-                    matrix[row][col] = characters.get(i);
-                }
+                matrix[row][col] = characters.get(i);
                 i++;
             }
             col++;
         }
         while (row > startRow) {
             if (isInMatrix(row, col)) {
-                if (matrix[row][col] != characters.get(i)) {
-                    count++;
-                    matrix[row][col] = characters.get(i);
-                }
+                matrix[row][col] = characters.get(i);
                 i++;
             }
             row--;
         }
         while (col > startCol) {
             if (isInMatrix(row, col)) {
-                if (matrix[row][col] != characters.get(i)) {
-                    count++;
-                    matrix[row][col] = characters.get(i);
-                }
+                matrix[row][col] = characters.get(i);
                 i++;
             }
             col--;
