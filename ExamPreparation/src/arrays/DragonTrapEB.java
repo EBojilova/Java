@@ -62,7 +62,7 @@ public class DragonTrapEB {
         printResult(matrix);
     }
 
-    private static ArrayList<Character> rotateMatrix(char[][] matrix, int startRow, int startCol, int endRow, int endCol, ArrayList<Character> characters) {
+    private static void rotateMatrix(char[][] matrix, int startRow, int startCol, int endRow, int endCol, ArrayList<Character> characters) {
         int row = startRow;
         int col = startCol;
         int i = 0;
@@ -106,7 +106,6 @@ public class DragonTrapEB {
             }
             col--;
         }
-        return characters;
     }
 
     private static ArrayList<Character> getCharacters(char[][] matrix, int startRow, int startCol, int endRow, int endCol) {
