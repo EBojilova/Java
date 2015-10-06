@@ -46,20 +46,14 @@ public class DragonTrapEB {
                 continue;
             }
 
-            if (rotations < 0) {
-                rotations = Math.abs(rotations) % characters.size();
-                ArrayList<Character> part = new ArrayList(characters.subList(0, characters.size() - rotations));
-                characters = new ArrayList(characters.subList(characters.size() - rotations, characters.size()));
-                characters.addAll(part);
-            }
-            else {
-                rotations = rotations % characters.size();
-                ArrayList<Character> part = new ArrayList(characters.subList(0, rotations));
-                characters = new ArrayList(characters.subList(rotations, characters.size()));
-                characters.addAll(part);
-            }
+            characters = rotateCharacters(rotations, characters);
             rotateMatrix(matrix, startRow, startCol, endRow, endCol, characters);
         }
+        findCountOfChangedCells(matrix, notRotatedMatrix);
+        printResult(matrix);
+    }
+
+    private static void findCountOfChangedCells(char[][] matrix, char[][] notRotatedMatrix) {
         for (int row = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++) {
                 if (matrix[row][col] != notRotatedMatrix[row][col]) {
@@ -67,7 +61,22 @@ public class DragonTrapEB {
                 }
             }
         }
-        printResult(matrix);
+    }
+
+    private static ArrayList<Character> rotateCharacters(int rotations, ArrayList<Character> characters) {
+        if (rotations < 0) {
+            rotations = Math.abs(rotations) % characters.size();
+            ArrayList<Character> part = new ArrayList(characters.subList(0, characters.size() - rotations));
+            characters = new ArrayList(characters.subList(characters.size() - rotations, characters.size()));
+            characters.addAll(part);
+        }
+        else {
+            rotations = rotations % characters.size();
+            ArrayList<Character> part = new ArrayList(characters.subList(0, rotations));
+            characters = new ArrayList(characters.subList(rotations, characters.size()));
+            characters.addAll(part);
+        }
+        return characters;
     }
 
     private static void rotateMatrix(char[][] matrix, int startRow, int startCol, int endRow, int endCol, ArrayList<Character> characters) {
